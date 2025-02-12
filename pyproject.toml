@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "keyderive"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+mnemonic = "^0.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
