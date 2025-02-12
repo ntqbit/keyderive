@@ -13,3 +13,6 @@ mnemonic = "^0.21"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+keyderive = "keyderive.cli:cli_main"
